@@ -51,7 +51,7 @@ const SpeakerList = () => {
                   <h3 className="card-title text-center pb-2">
                      Sean Paul
                   </h3>
-                  <h5> Subject: <b>NODE JS</b></h5>
+                  <h5> Subject: <b>ExpressJS</b></h5>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad dicta ipsum hic eos maiores assumenda soluta quae, error rerum illum voluptas qui saepe nisi debitis tempora numquam dolore. Iste, tenetur!</p>
                   <Link to='/speaker/info/2'>
         <Button className="btn btn-primary text-uppercase">more info about speaker</Button>
@@ -65,7 +65,7 @@ const SpeakerList = () => {
                   <h3 className="card-title text-center pb-2">
                     Vybz Kartel
                   </h3>
-                  <h5> Subject: <b>React JS</b></h5>
+                  <h5> Subject: <b>ReactJS</b></h5>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad dicta ipsum hic eos maiores assumenda soluta quae, error rerum illum voluptas qui saepe nisi debitis tempora numquam dolore. Iste, tenetur!</p>
                   <Link to='/speaker/info/3'>
         <Button className="btn btn-primary text-uppercase">more info about speaker</Button>

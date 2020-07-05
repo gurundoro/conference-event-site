@@ -8,6 +8,9 @@ import Home  from "./components/pages/Home"
 import Navbar from "./components/layouts/Navbar"
 import SpeakerList from "./components/pages/SpeakerList"
 import SpeakerInfo from "./components/pages/SpeakerInfo"
+import Events  from "./components/pages/Events"
+import About from "./components/pages/About"
+
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
       <Switch>
        <Route exact path="/" component={Home}/>
        <Route path="/speakers-list" component={SpeakerList}/>
+       <Route path="/events" component={Events}/>
+       <Route path="/about" component={About}/>
        <Route path="/speaker/info/:id" children={<SpeakerInfo/>}/>
      </Switch>
     </>
