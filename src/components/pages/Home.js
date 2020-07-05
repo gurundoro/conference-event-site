@@ -1,12 +1,10 @@
 import React from 'react'
 import styled from "styled-components"
-import Navbar from '../layouts/Navbar'
 import Footer from '../layouts/Footer'
 
 const Home  = () => {
     return (
        <MainContainer className="home-main-container">
-       <Navbar/>
         <div className="container">
             <h1 className="display-5 text-uppercase py-5 text-center">
              Welcome To Javascript Con 2020!
@@ -46,43 +44,73 @@ export default Home
 
 
 const MainContainer = styled.div`
+  // background: #012;
+  height: 100%;
 
-h1{
-    color: var(--dark-tomato)
-}
-p {
-    color: var(--orange)
-}
+  h1 {
+    padding-top: 8rem !important;
+    color: var(--dark-tomato);
+  }
 
-h3 {
-    color: var(--tomato)
-}
+  h3 {
+    color: var(--tomato);
+  }
 
-.form-box{
-    padding:6rem 0;
-}
+  p {
+    color: var(--orange);
+  }
 
-form {
+  .form-box {
+    padding: 6rem 0;
+  }
+  form {
     width: 50rem;
     margin: 0 auto;
-}
-
-button {
-    width:100%;
-    background: transparent;
+  }
+  button {
+    width: 100%;
+    background-color: Transparent;
+    background-repeat: no-repeat;
     border-color: var(--dark-red);
     &:hover {
-        background: var(--dark-tomato);
-        border-color:var(--dark-red)
+      background-color: #c34;
+      border-color: var(--dark-red);
     }
     &:focus {
-        background: var(--tomato);
-        border-color: var(--tomato);
+      background: var(--tomato) !important;
+      border-color: var(--tomato) !important;
     }
-}
-
-input{
-    background: var(--dark-red);
+  }
+  input {
+    background: #012;
     opacity: 0.7;
-}
-`
+    &:focus {
+      background: #c34;
+      color: #fff;
+    }
+  }
+
+
+  @media (max-width: 960px) {
+    .form-box {
+      margin: 0;
+      padding: 3rem 0;
+    }
+    form {
+      width: 30rem;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .form-box {
+      margin: 0;
+      padding: 2rem 0;
+    }
+    form {
+      width: 20rem;
+      margin: 0 auto;
+    }
+  }
+`;
+ 
