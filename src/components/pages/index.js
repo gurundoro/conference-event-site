@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import Navbar from '../layouts/Navbar'
+import Footer from '../layouts/Footer'
 
 const Home  = () => {
     return (
@@ -36,6 +37,7 @@ const Home  = () => {
                 </form>
             </div>
         </div>
+     <Footer />
     </MainContainer> 
     )
 }
@@ -43,7 +45,6 @@ const Home  = () => {
 export default Home
 
 
-//STYLED COMPONENTS
 const MainContainer = styled.div`
 
 h1{
