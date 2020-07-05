@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Footer from "../layouts/Footer";
+
 
 const About = (props) => {
   return (
@@ -70,7 +70,6 @@ const About = (props) => {
           reiciendis nostrum numquam quo minima quidem consequuntur iusto nihil.
         </p>
       </div>
-      <Footer />
     </MainContainer>
   );
 };

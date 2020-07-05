@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Footer from "../layouts/Footer"
 import Avatar from "./Avatar";
 import { useParams, Link } from "react-router-dom"
 import { Button } from "../Button"
@@ -68,7 +67,6 @@ const SPEAKERS = [
             </div>
           </div>
         </div>
-        <Footer />
       </MainContainer>
     );
   };

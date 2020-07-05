@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import Avatar from "./Avatar"
 import {Button} from '../Button'
-import Footer from '../layouts/Footer'
 
 //Avatars
 import avatar1 from '../../avatars/avatar-1.png'
@@ -73,8 +72,7 @@ const SpeakerList = () => {
                </div>
             </div>
          </div>    
-       </div>  
-     <Footer />    
+       </div>   
     </MainContainer>
     )
 }

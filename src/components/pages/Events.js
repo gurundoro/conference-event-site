@@ -1,7 +1,6 @@
 import React from 'react'
 import {NavLink, Route, Redirect } from 'react-router-dom'
 import styled from "styled-components"
-import Footer from "../layouts/Footer"
 import eventsData from "../../data/Events.json"
 
 import NodeJS from './NodeJS'
@@ -32,7 +31,6 @@ const Events = () => {
              <Route path="/events/expressjs" render={()=> <ExpressJS data={eventsData}/>}/>
              <Route path="/events/reactjs" render={()=> <ReactJS  data={eventsData}/>}/>
            </div>
-          <Footer/>
         </MainContainer>
     )
 }
@@ -42,7 +40,7 @@ export default Events
 //MAIN CONTAINER
 const MainContainer = styled.div`
   background: var(--deep-dark-blue);
-  height: 100%;
+  height: 74vh;
   .active {
     background: var(--dark-red);
     color: #fff !important;

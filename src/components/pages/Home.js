@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import Footer from '../layouts/Footer'
+
 
 const Home  = () => {
     return (
@@ -35,7 +35,6 @@ const Home  = () => {
                 </form>
             </div>
         </div>
-     <Footer />
     </MainContainer> 
     )
 }
