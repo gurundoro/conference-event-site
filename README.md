@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##JavaScript Conference Website
 
-## Available Scripts
+[Live Site](https://js-conference.netlify.app/)
 
-In the project directory, you can run:
+This is a mockup of a JS conference site, with a signup page, a page of speakers, individual speaker page, an events page and an about section. built with React, Material UI, React-Router JavaScript, and Styled-Components. Launched using Netlify
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Screen Shots
+  
+![Alt text](https://user-images.githubusercontent.com/29901283/87079964-dea8b200-c1f4-11ea-8a3d-ef92cbb9ab78.png)
+![Alt text](https://user-images.githubusercontent.com/29901283/87079971-e0727580-c1f4-11ea-8054-06107697b1b8.png)
+![Alt text](https://user-images.githubusercontent.com/29901283/87079976-e1a3a280-c1f4-11ea-8ec8-4563a00a215c.png)
+![Alt text](https://user-images.githubusercontent.com/29901283/87080007-eff1be80-c1f4-11ea-8d58-73a1f673ba47.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Installation and Setup Instructions
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `yarn build`
+Installation:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm install`  
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To Start Server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm start`  
 
-### `yarn eject`
+To Visit App:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`localhost:3000
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Reflection
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  - What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
+  - What did you set out to build?
+  - Why was this project challenging and therefore a really good learning experience?
+  - What were some unexpected obstacles?
+  - What tools did you use to implement this project?
+      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Example:  
 
-## Learn More
+This project was built as a porfolio piece. Main goals wre to practice building in React and using React-Router.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I set out to build a project the resemebled a conference webiste, including a sign in page a page of speakers and their bios. Included pages to descripe the events and about the conference as a whole. I started this process by using the `create-react-app` boilerplate, then adding `react-router-4.0.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The biggest challenge for me was working with Reach-Router, particulary the nested routes and the useParams() method.
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+At the end of the day, the technologies implemented in this project are React, React-Router 4.0a significant amount of VanillaJS, JSX, and CSS. I chose to use the create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
